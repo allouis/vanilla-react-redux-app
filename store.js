@@ -1,7 +1,7 @@
-var createStore = require('./lib/createStore')
-var reducer = require('./reducer')
+const createStore = require('./lib/createStore')
+const reducer = require('./reducer')
 
-var initialState = {
+const initialState = {
   frameworks: ['React', 'Angular', 'Vue', 'Ember'],
   filterBy: ''
 }
