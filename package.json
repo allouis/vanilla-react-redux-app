@@ -6,7 +6,9 @@
   "scripts": {
     "test": "standard",
     "fix": "standard --fix",
-    "start": "wzrd index.js"
+    "start": "wzrd index.js",
+    "build": "browserify -e index.js | uglifyjs --compress > bundle.js",
+    "build-gzip": "browserify -e index.js | uglifyjs --compress | gzip > bundle.js.gz"
   },
   "keywords": [],
   "author": "Fabien O'Carroll <fabien@allou.is>",
