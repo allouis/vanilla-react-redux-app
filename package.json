@@ -1,0 +1,23 @@
+{
+  "name": "vanilla-js-react-redux-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard",
+    "fix": "standard --fix",
+    "start": "wzrd index.js"
+  },
+  "keywords": [],
+  "author": "Fabien O'Carroll <fabien@allou.is>",
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^13.1.1",
+    "wzrd": "^1.4.0"
+  },
+  "dependencies": {
+    "bel": "^4.5.0",
+    "copy-event-attributes": "^1.0.1",
+    "morphdom": "^2.2.1"
+  }
+}
