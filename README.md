@@ -1,7 +1,7 @@
 ### usage
 
 ```shell
-yarn install
+yarn
 # OR
 npm install
 
@@ -14,7 +14,7 @@ this is just an experiment in reimplementing the app from http://jilles.me/react
 
 The [`/lib`](https://github.com/allouis/vanilla-react-redux-app/tree/master/lib) folder should eventually be split into their own modules.
 
-The implementation of the store is inferior to redux in that it only allows one subscriber and doesn't have any `combineReducers` helpers or useful errors, it was hacked together quickly. I do however favour the API over redux but that is just preference.
+The implementation of the store is inferior to redux in that it only allows one subscriber and doesn't have any `combineReducers` helpers or useful errors, it was hacked together quickly. I do favour the API over redux but in a real application I would use redux
 
 The `bindComponent` module I suppose is the equivalent of `react-redux` in that it wires up the store with a component.
 
